@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #3f51b5;
+  --secondary-color: #3f51b5;
+}
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.logo{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(5, 12, 147);
+}
+
+
+
+.blur-bg {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper  {
+
+   box-shadow: rgba(225, 225, 225, 0.24) 0px 3px 8px !important;
+ 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
