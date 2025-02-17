@@ -1,0 +1,115 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea/
+.vscode/
+
+.settings/
+*.swp
+*.swo
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore all build directories
+/target/
+/bin/
+/build/
+/out/
+
+# Ignore IDE-specific files
+
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore dependency directories (if not using a package manager)
+**/lib/
+**/libs/
+
+# Ignore local configuration files
+application.properties
+application.yml
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Compiled class file
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# Ignore generated files
+/generated/
+/generated-sources/
+
+# Ignore test output
+/test-output/
+/test-results/
+
+# Ignore node_modules (if using frontend tools like npm)
+node_modules/
+
+# Ignore frontend build directories (if applicable)
+/public/
+/static/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Gradle-specific files (if using Gradle)
+.gradle/
+
+# Ignore Maven-specific files (if using Maven)
+.mvn/
+mvnw
+mvnw.cmd
+pom.xml.versionsBackup
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
